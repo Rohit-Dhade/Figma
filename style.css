@@ -1,0 +1,19 @@
+.corner {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 2px solid red;
+    border-radius: 50%;
+    display: none;
+}
+
+.selected .corner {
+    display: block;
+}
+
+.tl { top: -6px; left: -6px; }
+.tr { top: -6px; right: -6px; }
+.bl { bottom: -6px; left: -6px; }
+.br { bottom: -6px; right: -6px; }
+
