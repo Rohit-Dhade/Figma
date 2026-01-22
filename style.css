@@ -17,3 +17,18 @@
 .bl { bottom: -6px; left: -6px; }
 .br { bottom: -6px; right: -6px; }
 
+/* .corner {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border: 2px solid black;
+  position: absolute;
+  z-index: 50;
+} */
+
+.corner.tl { top: -5px; left: -5px; cursor: nwse-resize; }
+.corner.tr { top: -5px; right: -5px; cursor: nesw-resize; }
+.corner.bl { bottom: -5px; left: -5px; cursor: nesw-resize; }
+.corner.br { bottom: -5px; right: -5px; cursor: nwse-resize; }
+
+
